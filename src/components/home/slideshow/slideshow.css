@@ -1,0 +1,125 @@
+.slideshow{
+    text-align:center;
+    font-size:32px;
+    background-color: #F6F6F6;
+    padding-top:70px;
+}
+.slideshow h1 span {
+    color: #FF5B4a;
+}
+.swiper {
+    width: 100%;
+    height: 40vh;
+    margin-top:30px;
+}
+   .swiper-slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+}
+@media(max-width:1150px){
+    .swiper {
+            height: 30vh;}
+}
+@media(max-width:1100px) {
+    .swiper {
+        height: 40vh;
+    }
+}
+@media(max-width:880px) {
+    .swiper {
+        height: 30vh;
+    }
+}
+@media(max-width:750px) {
+    .swiper {
+        height: 300px;
+    }
+}
+@media(max-width:650px) {
+    .swiper {
+        height: 250px;
+    }
+}
+@media(max-width:530px) {
+    .swiper {
+        height: 200px;
+    }
+}
+ .swiper-slide:hover{
+    cursor:pointer;
+ }
+.innerd{
+    width: 100%;
+        height: 100%;
+}
+.swiper-slide p{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+   color:white;
+    position:absolute;
+    top: 50%;
+    left:50%; 
+    transform: translateX(-50%) translateY(-50%);
+    transition: opacity 0.3s;
+    opacity:0;
+    
+
+}
+.swiper-slide:hover p{
+    opacity:1;
+}
+.swiper-slide:hover .innerd{
+background-color: rgba(0, 0, 0, 0.7);
+}
+ 
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sl1{
+    background-image: url('../../../assets/projects/pr5.png');
+}
+.sl2 {
+    background-image: url('../../../assets/projectspr2.png');
+}
+.sl3 {
+    background-image: url('../../../assets/projectspr3.png');
+}
+.sl4 {
+    background-image: url('../../../assets/projectspr8.png');
+}
+
+.sl5 {
+    background-image: url('../../../assets/projectspr9.png');
+}
+
+.sl6 {
+    background-image: url('../../../assets/projectspr10.png');
+}
+.sl7 {
+    background-image: url('../../../assets/projectspr4.png');
+}
+
+.sl8 {
+    background-image: url('../../../assets/projectspr7.png');
+}
+
+.sl9 {
+    background-image: url('../../../assets/projectspr6.png');
+}
+.sl10 {
+    background-image: url('../../../assets/projectspr1.png');
+}
+
+.sl11 {
+    background-image: url('../../../assets/projectspr11.png');
+}
+
+.sl12 {
+    background-image: url('../../../assets/projectspr12.png');
+}

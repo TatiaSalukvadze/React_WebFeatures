@@ -1,0 +1,17 @@
+.abt{
+    padding:9% 10% ;
+    font-size:32px;
+}
+.abt span{
+    color:#FF5B4a;
+}
+.abp{
+    font-size:30px;
+    font-weight:200;
+}
+
+@media (max-width:768px){
+    .abp {
+            font-size: 20px;
+        }
+}

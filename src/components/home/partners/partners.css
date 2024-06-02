@@ -1,0 +1,16 @@
+.partners{
+    text-align:center;
+    background-color: #f9f9f9;
+    padding:70px 0px;
+    font-size:32px;
+}
+.par{
+    width:273px;
+    height:115px;
+    opacity:0.5;
+    margin:20px;
+}
+.par:hover{
+    cursor: pointer;
+    opacity:1;
+}

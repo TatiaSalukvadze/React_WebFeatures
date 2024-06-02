@@ -1,0 +1,254 @@
+.header{
+    height:90vh;
+    width:100%;
+    background-color: #F6F6F6;
+    /* padding: 0 10%; */
+    display:flex;
+    overflow: hidden;
+}
+.htexts{
+    /* height:100%; */
+    /* 
+    padding-left:5%; */
+    min-width:40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    left:5%;
+    top:50%;
+    transform: translateY(-50%);
+    background: transparent;
+    z-index:999;
+}
+.hn span{
+    color: #FF5B4a;
+    font-weight:700;
+    font-size:74px;
+    }
+
+.hp{
+    font-size:40px;
+    font-weight: 700;
+}
+.hb{
+    margin-top:20px;
+    width:181px;
+    height:46px;
+    border:0;
+    background:linear-gradient(to right,hsl(342, 100%, 65%),#FD4431);
+    opacity: 0;
+        animation: fromfade 1s linear 1.6s forwards;
+}
+
+.hn span,.hp span{
+    opacity: 0;
+    animation: fromfade 0.5s linear  1 forwards;
+}
+.hb a{
+    font-size: 24px;
+        color: #F6F6F6;
+}
+.hpics{
+    min-width:60%;
+    max-width:90%;
+    height:90vh;
+    position:absolute;
+    right:0;
+    z-index: 1;
+
+}
+.withwoman{
+    position:relative;
+    z-index:2;
+        overflow: hidden;
+        height:100%;
+        width:100%;
+}
+.circles{
+    position: absolute;
+    top:0;
+    z-index:1;
+    height: 100%;
+        min-width: 100%;
+    overflow: hidden;
+}
+.woman{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    height:140%;
+    z-index:1;
+    
+}
+.xeyes{
+    position: absolute;
+    top:38vh;
+    left: 50%;
+    height:15%;
+        /* transform: translateX(-50%); */
+        z-index:2;
+        transition: transform 0.2s ease-out;
+}
+.darkcs{
+    position: absolute;
+        top: 10vh;
+        left:10%;
+        z-index:0;
+        width:20%;
+}
+.lightcs{
+    position: absolute;
+        top: 80vh;
+        right: 10%;
+        z-index: 3;
+        width: 20%;
+}
+.bluec{
+    position: absolute;
+    top:5%;
+    right:10%;
+    width:140px;
+    transition: transform 0.2s ease-out;
+}
+.redc {
+    position: absolute;
+    bottom: -5%;
+    left: 10%;
+    width:186px;
+    transition: transform 0.2s ease-out;
+}
+.fullc{
+position: absolute;
+bottom:0;
+right:0;
+z-index:-2;
+width:200px;
+height:200px;
+}
+.halfc{
+position: absolute;
+bottom:-30%;
+left:0;
+z-index:-2;
+}
+@media (max-width:1000px) {
+
+    .hn {
+            font-size: 54px;
+        }
+    
+        .hp {
+            font-size: 30px;
+        }
+   .darkcs {
+    width:30%;
+left:5%;}
+.lightcs{
+    width:30%;
+    right:5%;
+}
+.redc {
+    left: 0%;
+}
+.bluec{
+    right:0;
+}
+.fullc {
+    right: -20%;
+}
+
+.halfc {
+    bottom: -50%;
+}
+}
+@media (max-width:745px) {
+    .hn {
+            font-size: 44px;
+        }
+    
+        .hp {
+            font-size: 25px;
+        }
+    .woman{
+        height:120%;
+       
+    }
+        .xeyes {
+            top: 33vh;         
+            height: 12%;
+        }
+                .darkcs {
+                    left: 0%;
+                }
+                                .lightcs {
+                                    top:70vh;
+                                    right: 0%;
+                                }
+
+}
+@media (max-width:570px) {
+
+    .woman {
+        height: 90%;
+
+    }
+        .xeyes {
+            top: 25vh;
+            height: 8%;
+        }
+                .darkcs {
+                    width: 45%;
+                    left: -10%;
+                }
+                         .lightcs {
+                            width:45%;
+                             top: 65vh;
+                         }
+}
+
+@media (max-width:450px) {
+
+    .woman {
+        height: 70%;
+
+    }
+
+    .xeyes {
+        top: 20vh;
+        height: 6%;
+    }
+         .lightcs {
+             top:55vh;
+         }
+}
+
+
+@media (max-width:1200px) and (min-height:1000px) {
+    .woman{
+        height:90%;
+    }
+         .xeyes {
+             top: 25vh;
+             height: 8%;
+         }
+}
+@media (max-width:880px) and (min-height:1000px) {
+    .woman {
+        height: 70%;
+    }
+         .xeyes {
+             top: 20vh;
+             height: 6%;
+         }
+}
+@media (max-width:600px) and (min-height:1000px) {
+    .woman {
+        top:20%;
+        height: 50%;
+    }
+         .xeyes {
+             top: 32vh;
+             height: 5%;
+         }
+}

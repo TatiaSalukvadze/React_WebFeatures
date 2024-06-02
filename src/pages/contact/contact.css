@@ -1,0 +1,44 @@
+.contact .email::before {
+    width: 0%;
+}
+.contact .ic{
+    fill:#222733;
+}
+.contact h4{
+    color:#222733;
+    font-weight: 500;
+    font-size:22px;
+}
+.contact p {
+    color: #7a7e83;
+    font-weight: 200;
+    font-size:17px;
+}
+
+.ics div {
+    border: 1px solid rgba(210, 211, 213, 0.5);
+
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding:100px 0px;
+}
+
+@media (max-width:600px){
+    .contact{
+        flex-direction: column;
+       
+       padding-left:30px;
+    }
+        .contact h4 {
+            font-size: 18px;
+        }
+    
+        .contact p {
+            font-size: 16px;
+        }
+        .con2 h4{
+            padding-top:70px;
+        }
+}

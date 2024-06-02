@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "ERETA",
+    "text":"Ereta.ge aims to facilitate the equestrian tourism business and increase access to it for both guides and horseback trevellers. We…",
+    "image":  "/projects/pr12.png"
+  },
+   {
+    "id": 2,
+    "title": "ERGONOMICS",
+    "text":"We are “Ergonomics” and offer products that make your life easier and more beautiful. Practical and useful things in your…",
+    "image":  "/projects/pr10.png"
+  },
+     {
+    "id": 3,
+    "title": "ZHORDANIA CLINIC",
+    "text":"Zhordania clinic is one of the first leading specialized medical centers for men and women in the field of reproductive…",
+    "image":  "/projects/pr9.png"
+  },
+ 
+     {
+    "id": 4,
+    "title": "SHUAGULI",
+    "text":"Heart island proves that the heart is a place of love created by love. When the island was carved, it…",
+    "image":  "/projects/pr7.png"
+  },
+ 
+     {
+    "id": 5,
+    "title": "RONIX TOOLS",
+    "text":"Since its inception in Germany in 2004, Ronix has been in the hands of various people in various countries and…",
+    "image":  "/projects/pr5.png"
+  },
+
+  {
+    "id": 6,
+    "title": "CITY MALL",
+    "text": "City Mall is the largest multifunctional shopping center in the country, which combines more than 300 brand stores,sports and lesure spaces.",
+    "image":  "/projects/pr4.png"
+  },
+  {
+    "id": 7,
+    "title": "INNOVA",
+    "text": "“Innova” is a multi-disciplinary clinic, which was established in 2015. The goal of the founders was to provide the best service.",
+    "image":  "/projects/pr1.png"
+  },
+  {
+    "id": 8,
+    "title": "PUFI",
+    "text": "PUFI offer the most diverse selection of puffs in Georgia. We have 80 models of poufs.",
+    "image":  "/projects/pr8.png"
+  },
+  {
+    "id": 9,
+    "title": "PULLMAN TBILISI",
+    "text": "Pullman Hotels and Resorts is a French multinational upscale hotel brand owned by the world leader in the hotel industry.",
+    "image":  "/projects/pr6.png"
+  },
+  {
+    "id": 10,
+    "title": "NEW HOSPITALS",
+    "text": "Our mission is to improve the health of patients. Our desire is to provide each patient with the best medical services. ",
+    "image":  "/projects/pr2.png"
+  },
+    {
+    "id": 11,
+    "title": "DAILY",
+    "text": "The regional supermarket chain “Daily” has been operating in the market since 2014. Currently, the company owns more than 160…",
+     "image":  "/projects/pr3.png"
+  },
+    {
+    "id": 12,
+    "title": "WE CARE",
+    "text": "To take care of your pets, we have created the first online consultation platform, staffed by professional and qualified veterinarians,…",
+    "image":  "/projects/pr11.png"
+  }
+  
+  
+  
+ 
+ 
+]

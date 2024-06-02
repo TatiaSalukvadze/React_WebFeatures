@@ -1,0 +1,134 @@
+.footer{
+    background-color: #171a21;
+    height:400px;
+    width:100%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:80px;
+}
+.up{
+    display: flex;
+        flex-wrap: wrap;
+        gap: 250px;
+}
+.footer h4,.ic{
+    color:#f9f9f9;
+    fill:#f9f9f9;
+    font-size:18px;
+}
+.footer a, .footer p{
+    color:#d2d3d5;
+    font-size:17px;
+}
+.ics{
+    display:flex;
+    gap:5px;
+}
+.ics div{
+    margin-top:20px;
+width: 50px;
+    height: 50px;
+
+    border:1px solid rgba(210, 211, 213,0.2);
+    border-radius:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mc{
+    display:flex;
+        gap: 250px;
+}
+.men,.cont{
+    display:flex;
+    flex-direction: column;
+    height:180px;
+    justify-content: space-between;
+}
+.bot{
+    margin: 40px 0%  70px ;
+    padding-top:20px;
+    border-top: 1px solid rgba(210, 211, 213, 0.2);
+}
+
+.footer a{
+    transition: transform 0.3s;
+    position: relative;
+}
+.footer a::before{
+    content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: rgb(221, 204, 204);
+        transition: width 0.5s;
+
+}
+.footer a:hover{
+    transform: translateX(20px);}
+    .footer a:hover::before{
+    width:100%;
+}
+
+.email{
+    position:relative;
+}
+.email::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(221, 204, 204);
+    transition: width 0.5s;
+
+}
+.email:hover::before{
+    width:0;
+}
+.ics div:hover{
+cursor: pointer;
+}
+.ics div:hover .ic{
+        fill: #FF5B4a;
+}
+@media (max-width:1160px){
+    .up,.mc {
+            gap: 150px;
+        }
+}
+@media (max-width:950px) {
+
+    .up,
+    .mc {
+        gap: 100px;
+    }
+}
+@media (max-width:768px) {
+    .footer{
+        height:500px;
+    }
+
+    .up {
+        flex-direction: column;
+        gap:30px;
+    }
+}
+@media (max-width:420px){
+    /* .mc {
+            gap: 50px;
+        } */
+                .footer h4,
+                .ic {
+                    font-size: 16px;
+                }
+        
+                .footer a,
+                .footer p {
+                    font-size: 14px;
+                }
+}

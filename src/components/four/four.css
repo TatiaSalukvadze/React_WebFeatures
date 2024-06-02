@@ -1,0 +1,134 @@
+:root{
+    --pic: url('../../assets/service1.png');
+}
+.servs{
+    font-size:32px;
+}
+.servs h1{
+    text-align: center;
+    font-size:44px;
+    font-weight:500;
+    padding-bottom:30px;
+}
+.servs h1 span{
+    color:#FF5B4a;
+}
+.spics{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    background-image: linear-gradient(to bottom, rgba(47, 48, 59, 0.52), rgba(47, 48, 59, 0.52)),
+        var(--pic);
+        background-size: cover;
+        background-position: center;
+    /* margin-bottom:70px; */
+    font-size:32px;
+   
+
+}
+.spics p{
+    color: white;
+}
+.ser{
+    width:25%;
+    height: 370px;
+    padding:3%;
+    border-right: 1px solid #d6d3d3;
+    border-bottom: 1px solid #d6d3d3;
+    position: relative;
+    
+}
+.ser.four{
+    border-right: 0px;
+}
+.ser:hover{
+    cursor: pointer;
+}
+.spics.ser1{
+    background-image: linear-gradient(to bottom, rgba(47, 48, 59, 0.52), rgba(47, 48, 59, 0.52)),
+            url('../../assets/service1.png');
+}
+.spics.ser2 {
+    background-image: linear-gradient(to bottom, rgba(47, 48, 59, 0.52), rgba(47, 48, 59, 0.52)),
+            url('../../assets/service2.jpg');
+}
+.spics.ser3 {
+    background-image: linear-gradient(to bottom, rgba(47, 48, 59, 0.52), rgba(47, 48, 59, 0.52)),
+            url('../../assets/service3.png');
+}
+.spics.ser4 {
+    background-image: linear-gradient(to bottom, rgba(47, 48, 59, 0.52), rgba(47, 48, 59, 0.52)),
+            url('../../assets/service4.png');
+}
+
+
+.snum {
+    font-size: 0.7em;
+    position: absolute;
+    top: 5%;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    transform: translateY(-50%);
+}
+
+.nr{
+    position: absolute;
+        top: 70%;
+            transition: transform 0.5s;
+            transform: translateY(50%);
+}
+.sname{
+    font-size: 0.8em;
+}
+.readm{
+    display:flex;
+    align-items: center;
+    gap:2px;
+    font-size:0.5em;
+    opacity:0;
+    transition: opacity 0.5s,
+}
+
+.readm .ic{
+    fill:white;
+}
+.ser.one:hover .snum,.ser.one:hover .readm,
+.ser.two:hover .snum,.ser.two:hover .readm,
+.ser.thre:hover .snum,.ser.thre:hover .readm,
+.ser.four:hover .snum,.ser.four:hover .readm {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ser.one:hover .nr,.ser.two:hover .nr,.ser.thre:hover .nr,.ser.four:hover .nr{
+        transform: translateY(0);
+}
+
+@media (max-width:1200px){
+    .sname {
+            font-size: 0.7em;
+        }
+
+}
+@media (max-width:900px) {
+
+    .ser {
+            width: 50%;}
+}
+
+@media (max-width:450px) {
+
+    .ser {
+        width: 100%;
+    }
+}
+
+@media (max-width: 778px) {
+    .servs h1 {
+        font-size: 1em;
+    }}
+        @media (max-width: 650px) {
+            .servs h1 {
+                font-size: 0.8em;
+            }
+        }

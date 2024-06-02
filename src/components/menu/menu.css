@@ -1,0 +1,170 @@
+.menudiv{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    animation: topTobot 1s linear 1;
+    display:flex;
+    background-color: #222733;
+}
+@keyframes topTobot {
+    from{
+        height:0vh;
+    }
+    to{
+        height:100vh;
+    }
+    
+}
+.div1{
+    width:60%;
+    height:100%;
+    background-color: #171a21;
+    /* #222733; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:5%;
+    font-size:22px;
+    animation: topTobot 1s linear  1;
+    
+}
+
+.menulogo{
+    width:60%;
+    padding-bottom: 10vh;
+    opacity:0;
+    animation: fromfade 0.5s linear 1s 1 forwards;
+}
+
+.menul,.fade-in-char{
+    color:rgb(221, 204, 204);
+}
+.fade-in-char,.div1 .icon,.div2d{
+    opacity:0;
+    color: rgb(221, 204, 204);
+    animation: fromfade 1s linear  1 forwards;
+}
+
+.div1b{
+    display:flex;
+    gap:5%;
+    align-items: center;
+    /* border-top:1px solid rgb(221, 204, 204); */
+    padding-top:10px;
+    position: relative;
+}
+.div1b::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:1px;
+    background-color: rgb(221, 204, 204);
+    animation: LtoR 1s linear 1.2s 1 both;
+}
+.div1b.closed::before {
+    animation: RtoL 1s linear 0.5s 1 both;
+}
+
+.div1 .icon, .close .icon{
+    fill:rgb(221, 204, 204);
+}
+
+.div2{
+    width: 40%;
+    background-color: #2C313D;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    animation: topTobot 0.999s linear 1;
+   
+}
+.div2 p{
+     color:rgb(221, 204, 204);
+}
+
+.div2in{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.q{
+ font-size:16px;
+}
+.ans{
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    gap:5px;
+}
+.an1{
+    text-decoration: underline;
+}
+.ar{
+    fill: #FF5B4a;
+}
+.close{
+    position:absolute;
+    top:10px;
+    right:10px;
+    display:flex;
+    align-items: center;
+    opacity:0;
+    animation: fromfade 0.7s linear 0.4s 1 forwards;
+}
+.close .icon{
+    width:40px;
+    height:40px;
+}
+.close p{
+    color:#585f6e;
+}
+
+
+.div2d.closed,.div1 .icon.closed,.fade-in-char.closed,.close.closed{
+    animation: fromfade-reverse 1s linear 1 both;
+}
+.menulogo.closed{
+    animation: fromfade-reverse 1s linear 1s 1 both;
+}
+.menul:hover,.menulogo:hover,.close:hover,.icon:hover,.ans:hover{
+    cursor: pointer;
+    color: white;
+    fill:white;
+}
+
+.close .icon.closed{
+    transform:rotate(360deg) scale(0.2);
+    transition: transform 1s linear;
+}
+/* .close:active .icon.closed{
+    transition: transform 1s linear;
+} */
+@media(max-width:600px){
+    .div1,.div2 {
+            width: 50%;
+    }
+        .menulogo {
+            width: 90%;
+        }
+}
+
+@media(max-width:475px) {
+    .div1{
+        width:100%;
+    }
+    .div2{
+        display:none;
+    }
+         .menulogo {
+             width: 50%;
+         }
+}
+@media(max-width:350px) {
+    .menulogo {
+            width: 70%;
+        }
+    }
