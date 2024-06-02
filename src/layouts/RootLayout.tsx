@@ -1,7 +1,6 @@
 import Nav from "../components/nav/Nav";
 import Footer from "../components/footer/Footer";
 import { Outlet } from "react-router-dom";
-import { useState, useEffect } from "react";
 
 function RootLayout() {
   // const [p, setp] = useState({ x: 0, y: 0 });
